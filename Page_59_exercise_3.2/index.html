@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3.2</title>
+</head>
+<body>
+    <script>
+        arrShoppingList=[];
+        arrShoppingList.push('Milk','Bread','Apples');
+        arrShoppingList[1]= "Bananas","Eggs";
+        arrShoppingList.pop('Apples');
+        arrShoppingList.sort();
+        findIndex = arrShoppingList.indexOf('Milk');
+        console.log(`The index of Milk is ${findIndex}`);
+        arrShoppingList.push('Carrots','Lettuce');
+        arrShoppingList.sort()
+        NewList=['Juice','Pop'];
+        shoppingList = arrShoppingList.concat(NewList,NewList);
+        LastPop = shoppingList.lastIndexOf('Pop');
+        console.log(`The LastIndex of Pop is ${LastPop}`);
+    </script>
+
+</body>
+</html>
